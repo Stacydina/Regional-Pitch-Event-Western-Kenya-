@@ -1,0 +1,61 @@
+
+ul {
+  font-family:Helvetica, Ariel, Sans-serif; color: #333333;
+}
+
+img {
+  max-width: 100%; height: 17px;
+}
+.column {
+    float: left;
+    width:100%;
+   padding: 14px;
+  grid-column-gap: 0.5em; 
+    display:grid;
+  grid-template-columns: repeat(2,2fr);
+               
+}
+
+.logo{
+  width: 49%%;
+  display: grid;
+  grid-collumn-gap: 0.5em;
+  float: left;
+    grid-template-columns: repeat(2,2fr);
+                
+}
+
+
+
+.judges{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+.judge1{
+  display: grid;
+grid-gap: 30px;
+grid-template-columns: repeat(2,2fr);
+padding: 3rem ;
+}
+.judge2{
+  display: grid;
+grid-gap: 30px;
+grid-template-columns: repeat(2,2fr);
+padding: 3rem ;
+}
+.judge3{
+  display: grid;
+grid-gap: 30px;
+grid-template-columns: repeat(2,2fr);
+padding: 3rem ;
+}
+.judge4{
+  display: grid;
+grid-gap: 30px;
+grid-template-columns: repeat(2,2fr);
+padding: 3rem ;
+}
+
+h1{
+  color: #903D54;
+}
